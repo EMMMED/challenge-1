@@ -96,6 +96,8 @@ button:active {
   font-size: 1.2rem;
   text-align: center;
   border-top: 1px solid #9194a1;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
 }
 
 .feature-item:last-of-type {
@@ -103,7 +105,7 @@ button:active {
 }
 
 .feature-item:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 3px solid red;
 }
 
 .bookmark-section {

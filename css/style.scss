@@ -75,13 +75,14 @@ button:active{
     font-size: 1.2rem;
     text-align: center;
     border-top: 1px solid $Grayish-Blue;
+    transition: all .2s linear;
     &:last-of-type{
         border-bottom: 1px solid $Grayish-Blue;
     }
 }
 
 .feature-item:hover {
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid red;
 }
 
 .bookmark-section {
