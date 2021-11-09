@@ -570,18 +570,27 @@ Responsive Header, Nav, Main
     .main-row{
         flex-direction: row-reverse;
     }
+
     .main-info {
         padding-left: 6rem;
+        h1{
+            font-size: 3rem;
+            margin-left: 0;
+            text-align: left;
+            width: 80%;
+        }
+        p{
+            margin-left: 0;
+            text-align: left;
+            width: 80%;
+        }
+        .main-button1 .main-button2{
+            text-align:initial;
+        }
     }
-    .main-info h1 {
-        font-size: 3rem;
-    }
+   
 
-    .main-info h1, .main-info p {
-        margin-left: 0;
-        text-align: left;
-        width: 80%;
-    }
+   
 
 
 
